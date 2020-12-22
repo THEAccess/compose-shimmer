@@ -1,4 +1,4 @@
-package com.github.kazemihabib.shimmer
+package com.github.luminarlab.shimmer
 
 import androidx.compose.animation.asDisposableClock
 import androidx.compose.animation.core.AnimationClockObservable
@@ -19,8 +19,8 @@ import androidx.compose.ui.layout.MeasureScope
 import androidx.compose.ui.platform.AnimationClockAmbient
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.LayoutDirection
-import com.github.kazemihabib.shimmer.RepeatMode.RESTART
-import com.github.kazemihabib.shimmer.RepeatMode.REVERSE
+import com.github.luminarlab.shimmer.RepeatMode.RESTART
+import com.github.luminarlab.shimmer.RepeatMode.REVERSE
 
 /**
  * Shimmer is a [Modifier] which adds a shimmering effect to any widget.

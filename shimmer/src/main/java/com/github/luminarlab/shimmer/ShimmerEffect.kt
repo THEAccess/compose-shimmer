@@ -1,4 +1,4 @@
-package com.github.kazemihabib.shimmer
+package com.github.luminarlab.shimmer
 
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Canvas

@@ -1,4 +1,4 @@
-package com.github.kazemihabib.compose_shimmer
+package com.github.luminarlab.compose_shimmer
 
 import android.os.Bundle
 import android.util.Log
@@ -16,6 +16,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.unit.dp
 import com.github.kazemihabib.shimmer.*
+import com.github.luminarlab.shimmer.*
 
 
 class ShimmerModel {
@@ -175,14 +176,13 @@ private fun Config(model: ShimmerModel) {
 
     val repeatModes = mapOf(RepeatMode.RESTART to "Restart", RepeatMode.REVERSE to "Reverse")
 
-    Log.d("MOVL", "model:$model")
     LabelRadio(
         label = "repeat",
         map = repeatModes,
         selectedKey = model.repeatMode,
         onSelectedChange = model::repeatMode::set
     )
-    val directions = mapOf<ShimmerDirection, String>(
+    val directions = mapOf(
         ShimmerDirection.LeftToRight to "left to right",
         ShimmerDirection.RightToLeft to "right to left",
         ShimmerDirection.TopToBottom to "top to bottom",

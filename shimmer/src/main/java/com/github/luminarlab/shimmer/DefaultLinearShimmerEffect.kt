@@ -1,4 +1,4 @@
-package com.github.kazemihabib.shimmer
+package com.github.luminarlab.shimmer
 
 import androidx.animation.*
 import androidx.compose.getValue
@@ -182,7 +182,7 @@ private object ShimmerTransition {
     fun definition(
         durationMs: Int,
         delay: Int
-    ) = transitionDefinition<ShimmerTransition.State> {
+    ) = transitionDefinition<State> {
 
         state(State.Begin) {
             this[progress] = 0f

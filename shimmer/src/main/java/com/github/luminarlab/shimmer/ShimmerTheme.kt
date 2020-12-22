@@ -1,4 +1,4 @@
-package com.github.kazemihabib.shimmer
+package com.github.luminarlab.shimmer
 
 import androidx.annotation.FloatRange
 import androidx.compose.runtime.ambientOf

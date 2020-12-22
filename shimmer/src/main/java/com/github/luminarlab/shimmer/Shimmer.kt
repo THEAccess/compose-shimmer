@@ -18,14 +18,13 @@ import androidx.compose.ui.layout.MeasureResult
 import androidx.compose.ui.layout.MeasureScope
 import androidx.compose.ui.platform.AnimationClockAmbient
 import androidx.compose.ui.unit.Constraints
-import androidx.compose.ui.unit.LayoutDirection
 import com.github.luminarlab.shimmer.RepeatMode.RESTART
 import com.github.luminarlab.shimmer.RepeatMode.REVERSE
 
 /**
  * Shimmer is a [Modifier] which adds a shimmering effect to any widget.
  *
- * @sample com.github.kazemihabib.compose_shimmer.App
+ * @sample com.github.luminarlab.compose_shimmer.App
  *
  * @param durationMs Time it takes for the highlight to move from one end of the layout to the other.
  * @param delay Delay after which the current animation will repeat.

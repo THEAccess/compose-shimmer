@@ -1,10 +1,11 @@
-[![](https://jitpack.io/v/kazemihabib/compose-shimmer.svg)](https://jitpack.io/#kazemihabib/compose-shimmer)
+[![](https://jitpack.io/v/THEAccess/compose-shimmer.svg)](https://jitpack.io/#THEAccess/compose-shimmer)
 
 <h1 align="center">
 <img src="images/shimmer.gif?raw=true" alt="Shimmer" height="600"/><br />
 compose-shimmer </h1>
 
 A Jetpack compose modifier to add a shimmering effect to any widget.
+Forked from https://github.com/kazemihabib/compose-shimmer
 
     MyComponent( modifier = Modifier.shimmer() )
     
@@ -28,6 +29,6 @@ allprojects {
 Add the dependency:
 ```groovy
 dependencies {
-    implementation 'com.github.kazemihabib:compose-shimmer:1.0.2'
+    implementation 'com.github.THEAccess:compose-shimmer:1.0.2'
 }
 ```

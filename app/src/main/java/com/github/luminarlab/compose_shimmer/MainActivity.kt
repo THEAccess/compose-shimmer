@@ -1,7 +1,6 @@
 package com.github.luminarlab.compose_shimmer
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.ScrollableColumn
 import androidx.compose.foundation.background
@@ -15,7 +14,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.unit.dp
-import com.github.kazemihabib.shimmer.*
 import com.github.luminarlab.shimmer.*
 
 

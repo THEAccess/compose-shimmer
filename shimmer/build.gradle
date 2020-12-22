@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-android-extensions'
 }
 
-group = 'com.github.kazemihabib'
+group = 'com.github.THEAccess'
 version = '1.0.2'
 
 android {

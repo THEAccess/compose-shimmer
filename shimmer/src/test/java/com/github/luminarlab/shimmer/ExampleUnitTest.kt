@@ -1,4 +1,4 @@
-package com.github.kazemihabib.shimmer
+package com.github.luminarlab.shimmer
 
 import org.junit.Test
 

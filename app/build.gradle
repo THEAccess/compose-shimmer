@@ -8,7 +8,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.github.kazemihabib.compose_shimmer"
+        applicationId "com.luminarlab.ui.compose_shimmer"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1

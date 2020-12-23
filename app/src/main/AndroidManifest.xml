@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.luminarlab.compose_shimmer">
+    package="com.luminarlab.test.compose_shimmer">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App">
         <activity
-            android:name="com.github.luminarlab.compose_shimmer.MainActivity"
+            android:name="com.luminarlab.test.compose_shimmer.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.App">
             <intent-filter>

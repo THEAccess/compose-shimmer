@@ -1,4 +1,4 @@
-package com.github.luminarlab.shimmer
+package com.luminarlab.ui.shimmer
 
 import androidx.compose.animation.asDisposableClock
 import androidx.compose.animation.core.AnimationClockObservable
@@ -16,10 +16,10 @@ import androidx.compose.ui.layout.LayoutModifier
 import androidx.compose.ui.layout.Measurable
 import androidx.compose.ui.layout.MeasureResult
 import androidx.compose.ui.layout.MeasureScope
-import androidx.compose.ui.platform.AnimationClockAmbient
+import androidx.compose.ui.platform.AmbientAnimationClock
 import androidx.compose.ui.unit.Constraints
-import com.github.luminarlab.shimmer.RepeatMode.RESTART
-import com.github.luminarlab.shimmer.RepeatMode.REVERSE
+import com.luminarlab.ui.shimmer.RepeatMode.RESTART
+import com.luminarlab.ui.shimmer.RepeatMode.REVERSE
 
 /**
  * Shimmer is a [Modifier] which adds a shimmering effect to any widget.
@@ -38,7 +38,7 @@ fun Modifier.shimmer(
     clock: AnimationClockObservable? = null
 ): Modifier = composed {
     @Suppress("NAME_SHADOWING") // don't allow usage of the parameter clock, only the disposable
-    val clock = (clock ?: AnimationClockAmbient.current).asDisposableClock()
+    val clock = (clock ?: AmbientAnimationClock.current).asDisposableClock()
     val theme = ShimmerThemeProvider.current
 
     val shimmerModifier =

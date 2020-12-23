@@ -1,4 +1,4 @@
-package com.github.luminarlab.shimmer
+package com.luminarlab.ui.shimmer
 
 import androidx.compose.animation.core.AnimationClockObservable
 

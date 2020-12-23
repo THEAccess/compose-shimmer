@@ -1,4 +1,4 @@
-package com.github.luminarlab.shimmer
+package com.luminarlab.ui.shimmer
 
 /**
  *  Enum class defining the direction of [shimmer] effect

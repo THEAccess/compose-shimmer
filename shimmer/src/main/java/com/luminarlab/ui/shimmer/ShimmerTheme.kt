@@ -1,4 +1,4 @@
-package com.github.luminarlab.shimmer
+package com.luminarlab.ui.shimmer
 
 import androidx.annotation.FloatRange
 import androidx.compose.runtime.ambientOf
@@ -62,7 +62,7 @@ private val defaultShimmerTheme = ShimmerTheme(
     factory = DefaultLinearShimmerEffectFactory,
     baseAlpha = 0.2f,
     highlightAlpha = 0.9f,
-    direction = ShimmerDirection.TopToBottom,
+    direction = ShimmerDirection.LeftToRight,
     dropOff = 0.5f,
     intensity = 0f,
     tilt = 0f

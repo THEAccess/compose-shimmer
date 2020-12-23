@@ -29,6 +29,6 @@ allprojects {
 Add the dependency:
 ```groovy
 dependencies {
-    implementation 'com.github.THEAccess:compose-shimmer:1.0.2'
+    implementation 'com.github.THEAccess:compose-shimmer:1.0.3'
 }
 ```

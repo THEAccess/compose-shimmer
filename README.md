@@ -1,4 +1,3 @@
-[![](https://jitpack.io/v/THEAccess/compose-shimmer.svg)](https://jitpack.io/#THEAccess/compose-shimmer)
 
 <h1 align="center">
 <img src="images/shimmer.gif?raw=true" alt="Shimmer" height="600"/><br />
@@ -14,14 +13,14 @@ Forked from https://github.com/kazemihabib/compose-shimmer
 
 ## Download
 
-Available through jitpack.
+Latest version: [ ![Download](https://api.bintray.com/packages/luminarlab/compose-shimmer/compose-shimmer/images/download.svg) ](https://bintray.com/luminarlab/compose-shimmer/compose-shimmer/_latestVersion)
 
-Add the maven repo to your root `build.gradle`
+Add the maven repo to your root `build.gradle` (If you haven't already)
 
 ```groovy
 allprojects {
     repositories {
-        maven { url 'https://jitpack.io' }
+       jcenter()
     }
 }
 ```
@@ -29,6 +28,6 @@ allprojects {
 Add the dependency:
 ```groovy
 dependencies {
-    implementation 'com.github.THEAccess:compose-shimmer:1.0.3'
+    implementation 'com.luminarlab.ui:compose-shimmer:{latest_version}'
 }
 ```

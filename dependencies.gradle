@@ -1,0 +1,13 @@
+ext {
+    libraryGroupId = 'com.luminarlab.ui'
+    libraryArtifactId = 'compose-shimmer'
+    libraryVersion = '1.0.3'
+    libraryVersionCode = 1
+    kotlinVersion = "1.4.21"
+    composeVersion = "1.0.0-alpha09"
+    gitUrl = "https://github.com/THEAccess/compose-shimmer.git"
+    webUrl = "https://github.com/THEAccess/compose-shimmer"
+    libraryDesc = 'Shimmer Modifier for Jetpack Compose to enable beautiful Loading Placeholders'
+
+
+}
